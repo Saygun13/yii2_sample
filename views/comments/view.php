@@ -31,9 +31,9 @@ $this->params['breadcrumbs'][] = $this->title;
         'model' => $model,
         'attributes' => [
             'comment_id',
-            'users.email',
+            'user_id',
             'comment',
-            'articles.title',
+            'article_id',
             'createAt',
             'updateAt',
             'usercomment',

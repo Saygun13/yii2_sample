@@ -28,6 +28,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'comment',
             'article_id',
             'createAt',
+            //'users.email',
             // 'updateAt',
             // 'usercomment',
 

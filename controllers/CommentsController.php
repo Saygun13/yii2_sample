@@ -94,6 +94,8 @@ class CommentsController extends Controller
         } else {
             return $this->render('update', [
                 'model' => $model,
+                'users' => Users::find()->all(),
+                'articles' => Articles::find()->all()
             ]);
         }
     }
